@@ -1,8 +1,7 @@
-# Detecting, Explaining, and Mitigating Memorization in Diffusion Models
-Official repo for [Detecting, Explaining, and Mitigating Memorization in Diffusion Models](https://openreview.net/forum?id=84n3UwkH7b).
+# Replication study for "Detecting, Explaining, and Mitigating Memorization in Diffusion Models"
+A fork of the official repo for [Detecting, Explaining, and Mitigating Memorization in Diffusion Models](https://openreview.net/forum?id=84n3UwkH7b).
 
-If you have any questions, feel free to email Yuxin (<ywen@umd.edu>).
-
+Original README:
 ## Dependencies
 - PyTorch == 1.13.0
 - transformers == 4.30.2

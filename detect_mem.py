@@ -62,7 +62,7 @@ def main(args):
             track_noise_norm=True,
         )
         for j, img in enumerate(outputs.images):
-            img.save(f'images/mem_{args.model_id.replace("/", "-")[0]}_{i}_{j}.png')
+            img.save(f'images/gen_{args.run_name}_{i}_{j}.png')
 
         uncond_noise_norm, text_noise_norm = (
             track_stats["uncond_noise_norm"],
